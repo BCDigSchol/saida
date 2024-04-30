@@ -1,0 +1,45 @@
+/* Put any styles you want here to override theme defaults*/
+@import "theme-settings";
+
+div.polaroid {
+    max-width: 250px; 
+    min-width: 250px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2C3531;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  
+  .polaroid a {color: $link-header-base-color !important;}
+  .polaroid:hover { background-color:#d9B08C;}
+  .polaroid a:hover {  color: $link-header-hover-color !important}
+  
+  
+  div.polaroidtitle {
+    padding: 5px 10px 15px 10px;
+    width: 100%;
+  }
+  
+  .polaroid img {
+    max-width: 250px; /* width of container */
+    min-width: 250px;
+    height: 250px; /* height of container */
+    padding: 5px 0px 5px 0px;
+    object-fit: cover;
+    object-position: 20% 10%; 
+   }
+div.polaroid a, header a:visited {
+  color: $link-header-base-color !important;
+}
+
+header a:hover {
+  color: $link-header-hover-color !important;
+}
+
+.tab-bar {
+  color: $header-text-color !important;
+  background-color: $site-header-color;
+}
