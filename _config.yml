@@ -1,6 +1,6 @@
 # change the followings to match your Github username and repo name
-baseurl: "/wip-saida" # the name of your github repo
-url: "https://BCDigSchol.github.io" # the url of your github pages
+# baseurl: "/wip-saida" # the name of your github repo
+# url: "https://BCDigSchol.github.io" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "Saida: A City's Urban History through its Inscriptions"
@@ -15,12 +15,14 @@ nav-menu:
     link: index
   - title: Decorative Indoor Inscriptions
     link: indoor-inscriptions
-  - title: Dating Inscriptions (Story Map)
+  - title: Dating Inscriptions
     link: dating-inscriptions
   - title: Gallery
     link: gallery
-  - title: Jummal Calculator
-    link: jummal-calculator
+  - title: Jummal Dating
+    link: jummal-dating
+  - title: About
+    link: about
 
 # sets whether a search bar appears on the site header
 # NOTE, you will have to increase the site of teh $site-header-height in _sass/theme-settings.scss to to see the search bar
